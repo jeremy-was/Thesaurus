@@ -21,6 +21,7 @@ def thesaurus(word):
             if answer.lower()[0] == 'y':
                 return data[close_matches[0]]
             elif answer.lower()[0] == 'n':
+                return ''
                 break
             else:
                 continue
